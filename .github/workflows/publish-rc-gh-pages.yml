@@ -22,4 +22,4 @@ jobs:
     uses: ./.github/workflows/publish-gh-pages.yml
     needs: get-release-version
     with:
-      destination_dir: ''
+      destination_dir: ${{ needs.get-release-version.outputs.release-version }}
