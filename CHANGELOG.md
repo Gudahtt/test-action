@@ -7,13 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [1.1.0]
-### Uncategorized
-- pat
-- fix
-- fix
-- test
-- Add actions to publish to gh-pages ([#1](https://github.com/Gudahtt/test-action/pull/1))
-- Initial phishing page implementation ([#1](https://github.com/Gudahtt/test-action/pull/1))
+### Changed
 - Initial commit
 
 [Unreleased]: https://github.com/Gudahtt/test-action/compare/v1.1.0...HEAD
