@@ -6,4 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/MetaMask/phishing-warning/
+## [1.1.0]
+### Changed
+- Initial commit
+
+[Unreleased]: https://github.com/Gudahtt/test-action/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/Gudahtt/test-action/releases/tag/v1.1.0
