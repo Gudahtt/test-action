@@ -12,6 +12,9 @@ jobs:
     name: Publish to GitHub Pages
     runs-on: ubuntu-20.04
     steps:
+      - name: Throw if `destination_dir` is empty
+        if: ${{ inputs.destination_dir == '' }}
+        run: exit 1
       - name: Checkout the repository
         uses: actions/checkout@v2
       - name: Get Node.js version
