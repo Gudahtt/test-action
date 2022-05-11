@@ -10,9 +10,7 @@ jobs:
     name: Get release version
     runs-on: ubuntu-20.04
     outputs:
-      release-version:
-        description: "The release version"
-        value: ${{ steps.release-name.outputs.RELEASE_VERSION }}
+      release-version: ${{ steps.release-name.outputs.RELEASE_VERSION }}
     steps:
       - name: Extract release version from branch name
         id: release-name
