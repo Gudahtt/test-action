@@ -2,7 +2,7 @@ name: Publish release to GitHub Pages
 
 on:
   push:
-    tags:
+    tags: '*'
 
 jobs:
   publish-to-gh-pages:
